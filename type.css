@@ -1,0 +1,95 @@
+body {
+    background: #04a153;
+}
+
+#text {
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease-in;
+    opacity: 0;
+    height: 30%;
+}
+
+.wrapper {
+    height: 500px;
+    width: 500px;
+    padding: 20px 40px;
+    margin: 70px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    height: 50px;
+    width: 400px;
+    margin: 50px 0;
+    text-align: center;
+    border: 1px solid #04a153;
+    color: #04a153;
+    font-weight: bold;
+}
+
+input::placeholder {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #04a153;
+}
+
+.details {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    border-bottom: 1px solid #6acc9b;
+    margin-bottom: 20px;
+}
+.details p {
+    font-size: 18px;
+    color: #04a153;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #04a153;
+    padding: 3px 14px;
+}
+
+
+#text span {
+    letter-spacing: 0.8px;
+    word-spacing: 1px;
+    font-size: 19px;
+    color: #04a153;
+    font-weight: 500;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.play {
+    padding: 10px 25px;
+    border: 1px solid #04a153;
+    border-radius: 5px;
+    background: #fff;
+    color: #04a153;
+}
+
+.time {
+    padding: 4px 20px;
+    color: #04a153;
+    font-size: 20px
+}
+.time .time-title {
+    font-weight: bold;
+    margin: 0;
+}
+
+.play:hover{
+    background-color: #04a153;
+    color: #fff;
+    border: 1px solid #04a153;
+    cursor: pointer;
+}
+
